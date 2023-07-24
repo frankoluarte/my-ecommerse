@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    margin:30px;
+  background-color: aqua;
+  display: grid;
+    grid-template-columns: 300px;
+    
+    
+  
+    
+    
+  
+     
+    
+}
+.hola{
+    grid-template-columns:200px;
+  
+    grid-area:header;
+    background-color: rgb(34, 232, 71);
+    border-radius: 8px;
+}
+.hola1{
+  
+    
+    border-radius: 8px;
+    grid-area: menu;
+    background-color: aqua;
+
+}
+.hola2{
+   
+    grid-area: main;
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+.hola3{
+    border-radius: 8px;
+    background-color: brown;
+    grid-area: footer;
+
+}
